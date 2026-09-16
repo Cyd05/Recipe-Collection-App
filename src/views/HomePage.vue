@@ -353,8 +353,8 @@ onMounted(() => {
 /* READABLE PLACEHOLDER STYLING */
 ion-input::placeholder,
 ion-textarea::placeholder,
-ion-input:::placeholder,
-ion-textarea:::placeholder {
+ion-input::placeholder,
+ion-textarea::placeholder {
   color: #64748B !important; /* Muted Slate Grey para malinaw at readable */
   opacity: 0.85 !important;
 }
